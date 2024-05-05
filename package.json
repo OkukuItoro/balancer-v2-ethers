@@ -1,0 +1,24 @@
+{
+    "name": "balancer-v2-ethers",
+    "version": "1.0.0",
+    "description": "The Balancer V2 Protocol interfacing project and DEFi testing and development with Ethers.js.",
+    "main": "index.js",
+    "author": "Patrick Okuku",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.3.2",
+        "ethers": "^6.10.0",
+        "prettier": "^3.2.4",
+        "prettier-plugin-solidity": "^1.3.1"
+    },
+    "type": "module",
+    "scripts": {
+        "singleSwap": "node ./scripts/singleSwap.js",
+        "batchSwap": "node ./scripts/batchSwap.js",
+        "createWeightedPool": "node ./scripts/createWeightedPool.js",
+        "joinPool": "node ./scripts/joinPool.js"
+    },
+    "devDependencies": {
+        "bignumber.js": "4.0.4"
+    }
+}
